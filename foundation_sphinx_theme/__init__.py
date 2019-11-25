@@ -74,6 +74,7 @@ def hpc(app, pagename, templatename, context, doctree):
 
 
 def setup(app):
+    app.add_html_theme('foundation', os.path.abspath(os.path.dirname(__file__)))
     # Add directives.
     # app.add_directive("seo-description", SeoDescription)
 
