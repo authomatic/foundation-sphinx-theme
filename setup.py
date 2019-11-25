@@ -11,7 +11,7 @@ setup(
     long_description=open('README.rst').read(),
     keywords=['sphinx', 'reStructuredText', 'theme', 'foundation'],
     url='https://github.com/peterhudec/foundation-sphinx-theme',
-    license = 'MIT',
+    license='MIT',
     install_requires=['setuptools'],
     classifiers=[
         'Development Status :: 3 - Alpha',
@@ -24,5 +24,10 @@ setup(
         "Topic :: Internet",
         "Topic :: Software Development :: Documentation",
         "Topic :: Text Processing :: Markup",
-    ]
+    ],
+    entry_points={
+        'sphinx.html_themes': [
+            'foundation = foundation_sphinx_theme',
+        ]
+    },
 )
