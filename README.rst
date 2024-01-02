@@ -1,12 +1,12 @@
 .. |foundation| replace:: Foundation 4
-.. _foundation: http://foundation.zurb.com/
+.. _foundation: https://foundation.zurb.com/
 
 =======================
 Sphinx Foundation Theme
 =======================
 
 This is a Sphinx theme based on the |foundation|_ css framework.
-It was created as a by-product of the `Authomatic <http://peterhudec.github.io/authomatic>`_
+It was created as a by-product of the `Authomatic <https://peterhudec.github.io/authomatic>`_
 authentication / authorization library.
 
 Features
@@ -63,8 +63,8 @@ Styles
 
 There are two ready made styles.
 
-*	``foundation/css/basic.css`` `See demo. <http://peterhudec.github.io/foundation-sphinx-theme/basic/html/>`_
-*	``foundation/css/cards.css`` `See demo. <http://peterhudec.github.io/foundation-sphinx-theme/cards/html/>`_
+*	``foundation/css/basic.css`` `See demo. <https://peterhudec.github.io/foundation-sphinx-theme/basic/html/>`_
+*	``foundation/css/cards.css`` `See demo. <https://peterhudec.github.io/foundation-sphinx-theme/cards/html/>`_
 
 If you want to customize them or make your own,
 extend the ``sass`` sources in ``foundation/static/foundation/sass``.
@@ -150,7 +150,7 @@ There are these theme options available:
 		'seo_description': 'This is an example of the Foundation Sphinx Theme output.',
 
 		# Use this as the base for Open Graph URLs without trailing slash.
-		'base_url': 'http://example.com',
+		'base_url': 'https://example.com',
 
 		# If true a bar with Facebook, Google+ and Twitter social buttons will be displayed
 		# underneath the header.
@@ -175,7 +175,7 @@ There are these theme options available:
 		'author': 'Peter Hudec',
 
 		# Author's link.
-		'author_link': 'http://peterhudec.com',
+		'author_link': 'https://peterhudec.com',
 
 		# Year to be used in the copyright statement.
 		'copyright_year': '2013',
